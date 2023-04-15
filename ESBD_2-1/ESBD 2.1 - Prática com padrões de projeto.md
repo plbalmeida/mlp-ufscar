@@ -8,6 +8,74 @@
     - Diagrama de classe UML
     - Trechos de código (pseudo-código) das partes importantes
 
+A seguir estão o pseudocódigo assim como a respectiva descrição e diagrama de classes UML com base nos requisitos citados acima:
+
+```
+INTERFACE SecurityLevel
+  METHOD generate_route
+
+CLASS HighlySecure IMPLEMENTS SecurityLevel
+  METHOD generate_route
+    RETURN "Rota altamente segura gerada"
+
+CLASS Secure IMPLEMENTS SecurityLevel
+  METHOD generate_route
+    RETURN "Rota segura gerada"
+
+CLASS Acceptable IMPLEMENTS SecurityLevel
+  METHOD generate_route
+    RETURN "Rota aceitável gerada"
+
+CLASS RouteGenerator
+  STATIC VARIABLE _instance = None
+
+  STATIC METHOD __new__
+    IF _instance IS None
+      _instance = NEW RouteGenerator
+    RETURN _instance
+
+  CONSTRUCTOR
+    _security_level = None
+
+  METHOD set_security_level(security_level)
+    _security_level = security_level
+
+  METHOD generate_route
+    RETURN _security_level.generate_route()
+```
+
+1. Classe `SecurityLevel` (classe abstrata):
+    * Sem atributos.
+    * Método abstrato: 
+        * `generate_route()`
+
+2. Classe `HighlySecure` (herda de `SecurityLevel`):
+    * Sem atributos adicionais.
+    * Método: 
+        * `generate_route()` (implementação)
+
+3. Classe `Secure` (herda de `SecurityLevel`):
+    * Sem atributos adicionais.
+    * Método: 
+        * `generate_route()` (implementação)
+
+4. Classe `Acceptable` (herda de `SecurityLevel`):
+    * Sem atributos adicionais.
+    * Método: 
+        * `generate_route()` (implementação)
+
+5. Classe `RouteGenerator` (Singleton):
+    * Atributo: 
+        * `_instance (estático)`
+        * `_security_level`
+    * Método:
+        * `__new__(cls)`
+        * `__init__(self)`
+        * `set_security_level(self, security_level)`
+        * `generate_route(self)`
+
+![Alt text](diagrama-de-classes.png)
+
 A seguir será aplicado o sistema em Python utilizando os padrões de projeto Singleton e Strategy. O Singleton garantirá que apenas uma instância do gerador de rotas seja criada, enquanto o Strategy permitirá a troca de níveis de segurança da rota em tempo de execução.
 
 ``` python
@@ -86,4 +154,6 @@ Segue uma análise detalhada das partes do código dessa classe:
 5. `generate_route(self)`: Este método utiliza a estratégia atual armazenada em `_security_level` para gerar uma rota. Ele chama o método `generate_route` do objeto `_security_level` e retorna o resultado.
 
 Com essa classe é criada uma única instância de `RouteGenerator`, assim como é definida diferentes estratégias de geração de rotas em tempo de execução usando o método `set_security_level` gerarando rotas com o método `generate_route`. Isso é útil para lidar com diferentes níveis de segurança e trocar a estratégia em tempo real conforme necessário.
+
+
 

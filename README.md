@@ -1,1 +1,1 @@
-# mlp-ufscar
+# Machine Learning in Production - UFSCar
