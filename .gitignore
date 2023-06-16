@@ -1,1 +1,4 @@
 .env
+*.csv
+kafka_2.13-3.5.0
+kafka_2.13-3.5.0.tgz
