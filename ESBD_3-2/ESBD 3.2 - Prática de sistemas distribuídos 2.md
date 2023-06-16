@@ -11,3 +11,7 @@ A arquitetura do sistema para resolver o problema proposto foi dividida em quatr
 4. **Fraud Monitor**: Este componente recebe as mensagens dos Workers sobre transações fraudulentas e as publica no tópico `fraud_transactions` do Kafka.
 
 No caso de uma falha do Worker, a mensagem que estava sendo processada pode ser perdida. Para evitar isso, poderíamos usar o padrão ROUTER-DEALER do ZeroMQ, que fornece comunicação bidirecional e controle de reconhecimento de recebimento de mensagens. Dessa forma, a mensagem só será removida da fila do Dispatcher após o reconhecimento do Worker.
+
+### Evidência de funcionamento da solução:
+
+![](evidencia.png)
