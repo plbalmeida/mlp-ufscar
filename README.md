@@ -1,4 +1,6 @@
-# Curso de Engenharia de Software e Machine Learning com Big Data
+(pt-br)
+
+# Pós-graduação Machine Learning in Production - UFSCar
 
 Este repositório contém todas as atividades e materiais de estudo relacionados ao curso estruturado em 3 módulos temáticos. Cada módulo é composto por 4 Componentes Curriculares que se complementam, favorecendo o desenvolvimento de soft skills e competências técnicas especializadas.
 
@@ -26,4 +28,37 @@ Este repositório contém todas as atividades e materiais de estudo relacionados
 ## Contribuição
 
 Se você tem alguma sugestão, correção ou material complementar, sinta-se à vontade para abrir uma issue ou criar um pull request. Sua contribuição é muito bem-vinda!
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(en)
+
+# Graduate Program in Machine Learning in Production - UFSCar
+
+This repository contains all activities and study materials related to the course structured in 3 thematic modules. Each module is composed of 4 Curricular Components that complement each other, fostering the development of soft skills and specialized technical competencies.
+
+## Module 1: Software Engineering for Big Data
+
+1. **Algorithms and Data Structures in Big Data**: A focus on specific algorithms for large data volumes and the structures used to store and process them.
+2. **Programming and Test-Driven Development**: An introduction to software development with a focus on testing.
+3. **Design Patterns**: A study on the most common design patterns in Software Engineering and their application.
+4. **Distributed Systems**: An exploration of the fundamentals and techniques for development in distributed environments.
+
+## Module 2: Introduction to Machine Learning
+
+1. **Supervised Learning**: An introduction to the concepts of supervised learning, including algorithms and applications.
+2. **Unsupervised Learning**: A study on techniques and algorithms where the data do not have a prior classification or label.
+3. **Deep Learning**: A deep dive into neural networks and their applications.
+4. **Model Lifecycle**: How to create, validate, train, and deploy machine learning models.
+
+## Module 3: Machine Learning Engineering
+
+1. **DevOps**: An introduction to DevOps practices applied to Machine Learning.
+2. **Containers**: How to use containers for deployment and application management.
+3. **Model Serving**: Strategies and tools for serving machine learning models in production.
+4. **Cloud Computing**: A study on cloud computing and its services, focusing on solutions for machine learning.
+
+## Contribution
+
+If you have any suggestions, corrections, or additional material, please feel free to open an issue or create a pull request. Your contribution is very much appreciated!
 
