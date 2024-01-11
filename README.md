@@ -40,9 +40,9 @@ This repository contains all activities and study materials related to the cours
 ## Module 1: Software Engineering for Big Data (ESBD)
 
 1. **Algorithms and Data Structures in Big Data**: A focus on specific algorithms for large data volumes and the structures used to store and process them.
-2. **Programming and Test-Driven Development**: An introduction to software development with a focus on testing.
-3. **Design Patterns**: A study on the most common design patterns in Software Engineering and their application.
-4. **Distributed Systems**: An exploration of the fundamentals and techniques for development in distributed environments.
+2. **Design Patterns**: A study on the most common design patterns in Software Engineering and their application.
+3. **Distributed Systems**: An exploration of the fundamentals and techniques for development in distributed environments.
+4. **Programming and Test-Driven Development**: An introduction to software development with a focus on testing.
 
 ## Module 2: Introduction to Machine Learning (IML)
 
