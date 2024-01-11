@@ -7,9 +7,9 @@ Este repositório contém todas as atividades e materiais de estudo relacionados
 ## Módulo 1: Engenharia de Software para Big Data (ESBD)
 
 1. **Algoritmos e Estruturas de Dados no Big Data**: Abordagem sobre algoritmos específicos para grandes volumes de dados e as estruturas utilizadas para armazená-los e processá-los.
-2. **Programação e Desenvolvimento Dirigido por Testes**: Uma introdução ao desenvolvimento de software focado em testes.
-3. **Padrões de Projeto**: Estudo sobre os padrões de projeto mais comuns em Engenharia de Software e sua aplicação.
-4. **Sistemas Distribuídos**: Exploração dos fundamentos e técnicas para desenvolvimento em ambientes distribuídos.
+2. **Padrões de Projeto**: Estudo sobre os padrões de projeto mais comuns em Engenharia de Software e sua aplicação.
+3. **Sistemas Distribuídos**: Exploração dos fundamentos e técnicas para desenvolvimento em ambientes distribuídos.
+4. **Programação e Desenvolvimento Dirigido por Testes**: Uma introdução ao desenvolvimento de software focado em testes.
 
 ## Módulo 2: Introdução ao Machine Learning (IML)
 
