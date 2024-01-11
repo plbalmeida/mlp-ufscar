@@ -1,0 +1,15 @@
+artifact_uri: file:///home/plbalmeida/mlp-ufscar/iml-4/IML4.2%20Versionamento%20de%20Modelos%20de%20Aprendizado%20de%20M%C3%A1quina/mlruns/708340871658804840/5c8e6e95733a4401a1ceb3c0d0cbb92f/artifacts
+end_time: 1702775159563
+entry_point_name: ''
+experiment_id: '708340871658804840'
+lifecycle_stage: active
+run_id: 5c8e6e95733a4401a1ceb3c0d0cbb92f
+run_name: logistic-regression-model
+run_uuid: 5c8e6e95733a4401a1ceb3c0d0cbb92f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702775156610
+status: 3
+tags: []
+user_id: plbalmeida
